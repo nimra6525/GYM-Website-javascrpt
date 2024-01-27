@@ -1,0 +1,290 @@
+
+
+
+     
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    font-family:  sans-serif;
+
+}
+nav{
+    display: flex;
+    position: fixed;
+    top:0%;
+    width: 100%;
+    height: 80px;
+    background-color:rgba(1,1,50) ;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.LOGO  {
+    
+    font-size: 27px;
+    
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+
+
+}
+li a{
+    text-decoration: none;
+    margin-inline:40px ;
+    font-size: 21px;
+    color: white;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 111px;
+}
+.main img{
+    width: 660px;
+    
+
+}
+.mainText{
+    margin-top: 55px;
+    margin-left: 70px;
+    
+
+}
+.mainText h1{
+    font-size: 65px;
+}
+.mainText p{
+    font-size: 18px;
+    margin-top:22px ;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(248, 15, 54);
+    color: white;
+    border: none;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.challenges{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.challenges .card{
+    width: 330px;
+    margin-inline:20px ;
+    cursor: pointer;
+    margin-top: 22px;
+    
+
+}
+.card img{
+    width: 100%;
+
+}
+.cardText p{
+    margin-top: 13px;
+}
+.cardText button{
+    width: 90px;
+    height: 34px;
+    background-color: rgb(248, 15, 54);
+    color: white;
+    border: none;
+    margin-top: 22px;
+    font-size: 18px;
+    border-radius: 21px;
+}
+.head{
+    padding: 88px;
+    text-align: center;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.plancard{
+    width:290px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 1px 3px 3px 3px rgb(133, 131, 131);
+    border-radius: 3px;
+    margin-inline: 20px;
+    justify-content: center;
+    margin-top: 22px;
+}
+.plancard p{
+    margin-top: 22px;
+    
+}
+.plancard button{
+    margin-top: 22px;
+    width: 110px;
+    height: 34px;
+    background-color: rgb(241, 7, 46);
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+}
+.plancard h2{
+    padding: 18px;
+    background-color: rgb(1, 1, 63);
+    color: white;
+}
+.member{
+    width: 900px;
+    height: 330px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    
+    text-align: center;
+    transition: all 1s ease;
+}
+.slider img{
+    width: 250px;
+    border-radius: 2px;
+    text-align: center;
+    margin-inline:20px ;
+    height: 220px;
+    border-radius: 5px;
+
+}
+.contact{
+    width: 400px;
+    padding: 22px;
+     border-radius: 5px;
+     text-align: center;
+     background-color: rgb(1, 1,40);
+     margin: auto;
+
+}
+.contact input{
+    width: 90%;
+    height: 22px;
+    padding: 11px;
+    border: none;
+    font-size: 18px;
+    margin-top: 22px;
+
+}
+.contact button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(248, 4, 44);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(9,9,9);
+    color: white;
+    flex-wrap: wrap;
+}
+.text p{
+    margin-top: 13px;
+    
+}
+.detailCard img{
+    width: 70%;
+    height: 66%;
+}
+.detailCard p{
+    margin-top: 22px;
+}
+.detailCard button{
+    width: 90px;
+    height: 33px;
+    border-radius: 22px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(253, 3, 45);
+    color: white;
+}
+#bars{
+    display: none;
+    font-size: 25px;
+}
+
+@media screen and(max-width:1100px) {
+    .main{
+        text-align: center;
+        display: block;
+    }
+    
+}
+    
+
+@media screen and(max-width:800px) {
+    ul {
+        
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    
+}
+@media screen and(max-width:950px) {
+    .member{
+        width: 99px;
+    }
+    .slider{
+        width: 180px;
+        margin-inline: 11px;
+    }
+}
+@media screen and(max-width:750px) {
+    
+    .slider{
+        width: 130px;
+        height: 160px;
+        margin-inline:6px ;
+    }
+}
+@media screen and(max-width:510px) {
+    .slider img{
+        width: 90px;
+        height: 120px;
+        margin-inline: 2px;
+    }
+    .contact{
+        width: 80%;
+    }
+    .main h1{
+        font-size: 33px;
+
+    }
+    .main p{
+        font-size: 14px;
+    }
+    .main img{
+        width: 99%;
+    }
+}
